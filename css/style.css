@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+}
+
+.sub{
+    margin: 10px;
+    font-size: 32px;
+        
+}
+table{
+    margin: 10px auto;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+td a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+td a:hover{
+    color:rgb(79, 161, 255);
+    transition: 200ms ease-out;
+}
+
+th{
+    border: 1px solid black;
+}
+
+section{
+    margin: auto;
+    padding: 15px;
+    width: 50%;
+    background-color: #E9E9E9;
+    border-radius: 5px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+a:hover{
+    color:rgb(79, 161, 255);
+    transition: 200ms ease-out;
+}
